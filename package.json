@@ -1,0 +1,21 @@
+{
+  "name": "location",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "express": "~4.13.4",
+    "bower": "~1.7.9",
+    "underscore": "~1.8.3",
+    "cors": "~2.7.1",
+    "fx-sync": "~0.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  }
+}
