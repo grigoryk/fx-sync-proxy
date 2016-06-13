@@ -27,7 +27,7 @@ app.post('/history', cors(corsOptions), function(req, res) {
                 res.json(_.first(results, limit));
             },
             function(err) {
-                res.json({"error": err});
+                res.status(err.code).json({"error": err});
             }
         );
 });
